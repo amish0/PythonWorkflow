@@ -11,6 +11,7 @@ jobs:
       matrix:
         python-version: ["3.12", "3.10", "3.11"]
         os: [ubuntu-latest, windows-latest]
+    name: Checking with different python Version ${{matrix.python-version}} sample
     steps:
       - name: checkout repo content
         uses: actions/checkout@v3 # checkout the repository content to github runner
