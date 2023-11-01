@@ -9,4 +9,4 @@ img_handler_2.resize_image(640, 480)
 
 img_arth = ImageArithmetic()
 img_handler_1.image = img_arth.add_images(img_handler_1.image, img_handler_2.image)
-img_handler_1.show_image()
+print(img_handler_1.image.shape)
