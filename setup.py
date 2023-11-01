@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 import os
 
 setup(
-    name="opencvami",
+    name="mycustompackage",
     version='0.0.2',
     description='how to make setup.py for custom package',
     long_description=open('README.md').read(),

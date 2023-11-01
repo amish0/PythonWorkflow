@@ -7,6 +7,13 @@ This is basic tutorial for python setup creation
 - https://www.pythoncheatsheet.org/cheatsheet/setup-py
 - https://pypi.org/project/Sphinx-PyPI-upload/
 - https://pythonhosted.org/an_example_pypi_project/setuptools.html
+- https://setuptools.pypa.io/en/stable/references/keywords.html
+- https://setuptools.pypa.io/en/stable/userguide/quickstart.html
+- https://setuptools.pypa.io/en/stable/userguide/datafiles.html
+- https://packaging.python.org/en/latest/tutorials/packaging-projects/
+
+"Regarding Init File"
+- https://iq-inc.com/importerror-attempted-relative-import/
 
 
 ## basic Directory Structure
