@@ -54,5 +54,15 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
       - name: Display Python Version
-        run: python --version   
+        run: python --version 
+      - name: build wheel
+        run: python -m build
+      - name: upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: wheel
+          path: dist/
+      - name: finalizing
+        run: |
+          echo " build sucessfully created"
     
